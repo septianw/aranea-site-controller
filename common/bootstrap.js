@@ -29,13 +29,13 @@ exports = module.exports.config = function () {
 }
 
 exports = module.exports.db = function () {
-  var db = require('mongoose');//,
+  // var db = require('mongoose');//,
       // autoIncrement = require('mongoose-auto-increment');
-  db.connect('mongodb://localhost/controller');
+  // db.connect('mongodb://localhost/controller');
   // autoIncrement.initialize(db);
 
   // setter
-  app.set('db', db);
+  // app.set('db', db);
   // app.set('autoIncrement', autoIncrement);
 
   // app.models = require('../app/model');
